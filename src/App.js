@@ -38,7 +38,7 @@ class App extends Component {
     Shows: false,
     time: 0,
   };
-  handleShows = () => this.setState({ Shows: !this.state.Shows });
+  handleShows = () => this.setState({ Shows: !this.state.Shows ,time: 0 });
 
   componentWillUnmount() {
     this.setState({ time: 0 });
